@@ -398,6 +398,7 @@
   background: linear-gradient(90deg, var(--accent), var(--accent2));
   color: white;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .btn--ghost {

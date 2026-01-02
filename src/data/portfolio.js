@@ -118,7 +118,6 @@ export const experience = [
   {
     title: 'Edukacja',
     period: '2019 — Trwa',
-    company: 'Portfolio / Freelance',
     bullets: [
       'ZSZ im. Jana Ruszkowskiego. Technikum informatyczne 2018-2022',
       'Uniwersytet Warmińsko-Mazurski w Olsztynie, Wydział Matematyki i Informatyki, studia inżynierskie 2022-2026',

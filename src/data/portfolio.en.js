@@ -117,7 +117,6 @@ export const experience = [
   {
     title: 'Education',
     period: '2019 — Present',
-    company: 'Portfolio / Freelance',
     bullets: [
       'ZSZ im. Jana Ruszkowskiego — IT technical school (2018-2022)',
       'University of Warmia and Mazury in Olsztyn — Faculty of Mathematics and Computer Science, B.Eng. (2022-2026)',
