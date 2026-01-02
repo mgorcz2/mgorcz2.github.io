@@ -185,7 +185,6 @@ function App() {
           <div className="container">
             <div className="section__head">
               <h2>Doświadczenie</h2>
-              <p>Krótka oś czasu — do podmiany na Twoje realne wpisy.</p>
             </div>
 
             <div className="timeline">
