@@ -52,13 +52,11 @@ export const skills = [
 
 export const experience = [
   {
-    title: 'Frontend Developer (projekty własne)',
-    company: 'Portfolio / Freelance',
-    period: '2024 — 2026',
+    title: 'Power Platform developer',
+    company: 'Michelin Olsztyn',
+    period: '06.2025 — 12.2025 (staż)',
     bullets: [
-      'Budowa aplikacji SPA w React (routing, stan, formularze).',
-      'Dopracowane layouty responsywne i komponenty UI.',
-      'Integracje z API + obsługa błędów i stanów ładowania.',
+      'Podczas realizacji stażu samodzielnie projektowałem i tworzyłem aplikacje w środowisku Microsoft Power Platform. Praca obejmowała pełen cykl tworzenia rozwiązania — od analizy potrzeb użytkowników, przez projekt interfejsu i logiki działania, aż po wdrożenie oraz testowanie aplikacji. Równocześnie pracowałem w zespole Scrum, biorąc udział w planowaniu sprintów i codziennych spotkaniach (Daily).',
     ],
   },
   {
