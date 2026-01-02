@@ -6,6 +6,7 @@ import * as en from './data/portfolio.en.js'
 
 function App() {
   const [lang, setLang] = useState('pl')
+  const [isLangSwitching, setIsLangSwitching] = useState(false)
   const [lightbox, setLightbox] = useState({ open: false, projectId: null, index: 0 })
 
   const data = lang === 'pl' ? pl : en
@@ -36,8 +37,20 @@ function App() {
     setLightbox((s) => ({ ...s, index: (s.index + 1) % total }))
   }
 
+  function toggleLang() {
+    if (isLangSwitching) return
+
+    const next = lang === 'pl' ? 'en' : 'pl'
+    setIsLangSwitching(true)
+
+    // Show overlay, then swap language mid-animation.
+    window.setTimeout(() => setLang(next), 120)
+    window.setTimeout(() => setIsLangSwitching(false), 340)
+  }
+
   return (
     <div className="page">
+      {isLangSwitching ? <div className="langOverlay" aria-hidden="true" /> : null}
       <header className="nav">
         <div className="container nav__inner">
           <a className="nav__brand" href="#top" aria-label={ui.homeAria}>
@@ -55,7 +68,7 @@ function App() {
               type="button"
               className="btn btn--ghost btn--small"
               aria-label={ui.langAria}
-              onClick={() => setLang((v) => (v === 'pl' ? 'en' : 'pl'))}
+              onClick={toggleLang}
               title={ui.langAria}
             >
               {ui.langShort}
@@ -128,9 +141,14 @@ function App() {
             <div className="grid">
               {projects.map((p) => (
                 <article key={p.id} className="card">
-                  <div className="card__media">
+                  <button
+                    type="button"
+                    className="card__media"
+                    onClick={() => openGallery(p.id, 0)}
+                    aria-label={`${ui.projects.gallery} — ${p.title}`}
+                  >
                     <img src={p.images[0]} alt="" />
-                  </div>
+                  </button>
                   <div className="card__body">
                     <div className="card__titleRow">
                       <h3>{p.title}</h3>
