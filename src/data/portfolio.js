@@ -11,6 +11,62 @@ export const profile = {
   },
 }
 
+export const ui = {
+  langShort: 'PL',
+  langAria: 'Zmień język',
+  homeAria: 'Strona główna',
+  navAria: 'Nawigacja',
+  nav: {
+    projects: 'Projekty',
+    skills: 'Umiejętności',
+    experience: 'Doświadczenie',
+    contact: 'Kontakt',
+  },
+  hero: {
+    titlePrefix: 'Cześć, jestem',
+    ctaProjects: 'Zobacz projekty',
+    ctaEmail: 'Napisz maila',
+    highlightsAria: 'Najważniejsze technologie',
+  },
+  summaryAria: 'Podsumowanie',
+  stats: {
+    location: 'Lokalizacja',
+    specialization: 'Specjalizacja',
+    availability: 'Dostępność',
+    specializationValue: 'Fullstack dev',
+    availabilityValue: 'Open to work',
+  },
+  sections: {
+    projectsTitle: 'Projekty',
+    projectsSubtitle: 'Wybrane prace — z opisem i krótką galerią.',
+    skillsTitle: 'Umiejętności',
+    skillsSubtitle: 'Technologie i narzędzia, z których korzystam najczęściej.',
+    experienceTitle: 'Doświadczenie',
+    contactTitle: 'Kontakt',
+  },
+  projects: {
+    techAria: 'Technologie',
+    gallery: 'Galeria',
+    repo: 'Repo',
+    thumbsAria: 'Podgląd galerii',
+    openImageAriaPrefix: 'Otwórz zdjęcie',
+  },
+  contact: {
+    emailLabel: 'Email',
+    emailCta: 'Wyślij wiadomość',
+  },
+  footer: {
+    top: 'Do góry',
+  },
+  lightbox: {
+    dialogLabel: 'Galeria',
+    close: 'Zamknij',
+    closeAria: 'Zamknij galerię',
+    prevAria: 'Poprzednie zdjęcie',
+    nextAria: 'Następne zdjęcie',
+  },
+}
+
 export const projects = [
   {
     id: 'shipment_monitoring',
@@ -46,7 +102,7 @@ export const skills = [
   },
   {
     title: 'Dodatkowo',
-    items: ['Obsługa klienta', 'Analiza danych', 'Mechanika pojazdowa','Techniki tworzenia oprogramowania', 'Agile / Scrum', 'Testowanie oprogramowania'],
+    items: ['UML','Obsługa klienta', 'Analiza danych', 'Mechanika pojazdowa','Techniki tworzenia oprogramowania', 'Agile / Scrum', 'Testowanie oprogramowania'],
   },
 ]
 

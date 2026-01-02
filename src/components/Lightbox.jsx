@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 
-export default function Lightbox({ isOpen, title, images, index, onClose, onPrev, onNext }) {
+export default function Lightbox({ isOpen, title, images, index, labels, onClose, onPrev, onNext }) {
   useEffect(() => {
     if (!isOpen) return
 
@@ -16,26 +16,34 @@ export default function Lightbox({ isOpen, title, images, index, onClose, onPrev
 
   if (!isOpen) return null
 
+  const resolvedLabels = {
+    dialogLabel: labels?.dialogLabel ?? 'Gallery',
+    close: labels?.close ?? 'Close',
+    closeAria: labels?.closeAria ?? 'Close gallery',
+    prevAria: labels?.prevAria ?? 'Previous image',
+    nextAria: labels?.nextAria ?? 'Next image',
+  }
+
   const src = images?.[index]
 
   return (
-    <div className="lb" role="dialog" aria-modal="true" aria-label={title ?? 'Galeria'}>
-      <button className="lb__backdrop" aria-label="Zamknij" onClick={onClose} />
+    <div className="lb" role="dialog" aria-modal="true" aria-label={title ?? resolvedLabels.dialogLabel}>
+      <button className="lb__backdrop" aria-label={resolvedLabels.close} onClick={onClose} />
 
       <div className="lb__panel">
         <div className="lb__top">
           <div className="lb__title">{title}</div>
-          <button className="btn btn--ghost" onClick={onClose} aria-label="Zamknij galerię">
-            Zamknij
+          <button className="btn btn--ghost" onClick={onClose} aria-label={resolvedLabels.closeAria}>
+            {resolvedLabels.close}
           </button>
         </div>
 
         <div className="lb__media">
-          <button className="lb__nav" onClick={onPrev} aria-label="Poprzednie zdjęcie">
+          <button className="lb__nav" onClick={onPrev} aria-label={resolvedLabels.prevAria}>
             ‹
           </button>
           <img className="lb__img" src={src} alt="" />
-          <button className="lb__nav" onClick={onNext} aria-label="Następne zdjęcie">
+          <button className="lb__nav" onClick={onNext} aria-label={resolvedLabels.nextAria}>
             ›
           </button>
         </div>
