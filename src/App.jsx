@@ -43,7 +43,6 @@ function App() {
     const next = lang === 'pl' ? 'en' : 'pl'
     setIsLangSwitching(true)
 
-    // Show overlay, then swap language mid-animation.
     window.setTimeout(() => setLang(next), 120)
     window.setTimeout(() => setIsLangSwitching(false), 340)
   }

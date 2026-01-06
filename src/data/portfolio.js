@@ -74,12 +74,19 @@ export const projects = [
     subtitle: 'Aplikacja do zarządzania przesyłkami',
     description:
       'Kurierzy, przesyłki i geolokalizacja, czyli podstawy Track&Trace. Aplikacja umożliwia śledzenie przesyłek oraz ich lokalizację na mapie.',
-    tech: ['Python', 'React', 'Docker', 'Rest API'],
+    tech: ['Python', 'React', 'Docker', 'Rest API', 'Pytest' , 'Selenium'],
     links: {
       repo: 'https://github.com/mgorcz2/shipment-monitoring-project',
     },
     images: [
       '/projects/shipment_monitoring/1.png',
+      '/projects/shipment_monitoring/2.png',
+      '/projects/shipment_monitoring/3.png',
+      '/projects/shipment_monitoring/4.png',
+      '/projects/shipment_monitoring/5.png',
+      '/projects/shipment_monitoring/6.png',
+      '/projects/shipment_monitoring/7.png',
+      '/projects/shipment_monitoring/8.png',
     ],
   },
 ]

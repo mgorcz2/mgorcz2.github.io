@@ -40,20 +40,7 @@ W tym repo deploy jest robiony przez paczkę `gh-pages` i skrypt:
 ```bash
 npm run deploy
 ```
-
-Co to robi:
-
-1) `predeploy` → `npm run build` (czyli `vite build`)
-2) `deploy` → publikuje zawartość `dist/` na branch `gh-pages`
-
-Potem GitHub Pages serwuje `gh-pages` jako stronę.
-
----
-
 ## Jak aktualizować stronę po zmianach
-
-Najprościej:
-
 ```bash
 npm run deploy
 ```

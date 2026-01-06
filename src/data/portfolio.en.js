@@ -74,11 +74,18 @@ export const projects = [
     subtitle: 'Shipment management app',
     description:
       'Couriers, shipments and geolocation — Track & Trace fundamentals. The app lets you track shipments and view their location on a map.',
-    tech: ['Python', 'React', 'Docker', 'REST API'],
+    tech: ['Python', 'React', 'Docker', 'Rest API', 'Pytest' , 'Selenium'],
     links: {
       repo: 'https://github.com/mgorcz2/shipment-monitoring-project',
     },
-    images: ['/projects/shipment_monitoring/1.png'],
+    images: [      '/projects/shipment_monitoring/1.png',
+      '/projects/shipment_monitoring/2.png',
+      '/projects/shipment_monitoring/3.png',
+      '/projects/shipment_monitoring/4.png',
+      '/projects/shipment_monitoring/5.png',
+      '/projects/shipment_monitoring/6.png',
+      '/projects/shipment_monitoring/7.png',
+      '/projects/shipment_monitoring/8.png',],
   },
 ]
 
