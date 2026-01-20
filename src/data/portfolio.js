@@ -7,7 +7,8 @@ export const profile = {
   highlights: ['Python', 'Docker','JavaScript', 'React', 'UI/UX','REST API','Power Apps', 'Sharepoint','Power Automate','SQL'],
   links: {
     email: 'mgorczynsky2@gmail.com',
-    github: 'https://github.com/mgorcz2'
+    github: 'https://github.com/mgorcz2',
+    linkedin: 'https://www.linkedin.com/in/marcin-gorczy%C5%84ski-2950532b3/',
   },
 }
 

@@ -261,6 +261,9 @@ function App() {
                   <a href={profile.links.github} target="_blank" rel="noreferrer">
                     GitHub
                   </a>
+                  <a href={profile.links.linkedin} target="_blank" rel="noreferrer">
+                    LinkedIn
+                  </a>
                 </div>
               </div>
 
