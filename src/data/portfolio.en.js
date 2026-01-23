@@ -34,7 +34,7 @@ export const ui = {
     location: 'Location',
     specialization: 'Specialization',
     availability: 'Availability',
-    specializationValue: 'Full-stack dev',
+    specializationValue: 'Web app developer, Power platform developer',
     availabilityValue: 'Open to work',
   },
   sections: {
