@@ -90,6 +90,20 @@ export const projects = [
       '/projects/shipment_monitoring/8.png',
     ],
   },
+      {
+    id: 'shop',
+    title: 'Shop MVP',
+    subtitle: 'MVP Canvas aplikacja sklepu',
+    description:
+            'Minimalna wersja produktu (MVP) aplikacji sklepowej zbudowanej w Microsoft Power Apps Canvas. Aplikacja umożliwia przeglądanie produktów (pobieranych przez API), dodawanie ich do koszyka oraz składanie zamówień. Integruje się z SharePoint jako magazynem danych oraz z Power Automate do obsługi i automatyzacji procesowania zamówień.',
+    tech: ['Power Platform', 'Power Apps', 'Power Automate', 'SharePoint', 'REST API'],
+    links: {
+      repo: '',
+    },
+    images: [
+      '/projects/pa_shop/1.png',
+      '/projects/pa_shop/2.png'],
+    }
 ]
 
 export const skills = [
