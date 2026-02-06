@@ -3,7 +3,7 @@ export const profile = {
   role: 'Inżynier informatyki',
   location: 'Polska',
   summary:
-    'Student informatyki z pasją do tworzenia funkcjonalnych i estetycznych aplikacji webowych. Specjalizuję się w technologiach backendowych, ale również posiadam doświadczenie w frontendzie i bazach danych. Mam doświadczenie również w budowaniu aplikacji Power Apps oraz automatyzacji procesów biznesowych przy użyciu Power Automate.',
+    'Inżynier informatyki z pasją do tworzenia funkcjonalnych i estetycznych aplikacji webowych. Specjalizuję się w technologiach backendowych, ale również posiadam doświadczenie w frontendzie i bazach danych. Mam doświadczenie również w budowaniu aplikacji Power Apps oraz automatyzacji procesów biznesowych przy użyciu Power Automate.',
   highlights: ['Python', 'Docker','JavaScript', 'React', 'UI/UX','REST API','Power Apps', 'Sharepoint','Power Automate','SQL'],
   links: {
     email: 'mgorczynsky2@gmail.com',

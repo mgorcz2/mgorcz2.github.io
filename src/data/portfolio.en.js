@@ -3,7 +3,7 @@ export const profile = {
   role: 'Computer Science Engineer',
   location: 'Poland',
   summary:
-    "Computer science student passionate about building functional and visually polished web applications. I focus on backend technologies, and I also have experience with frontend and databases. I’ve worked with Microsoft Power Platform (Power Apps) and automated business processes using Power Automate.",
+    "Computer Science Engineer passionate about building functional and visually polished web applications. I focus on backend technologies, and I also have experience with frontend and databases. I’ve worked with Microsoft Power Platform (Power Apps) and automated business processes using Power Automate.",
   highlights: ['Python', 'Docker', 'JavaScript', 'React', 'UI/UX', 'REST API', 'Power Apps', 'SharePoint', 'Power Automate', 'SQL'],
   links: {
     email: 'mgorczynsky2@gmail.com',
